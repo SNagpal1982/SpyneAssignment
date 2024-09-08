@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+ 
+<suite name="Spyne Image Upload Test Suite">
+	<test name="Spyne Image Upload Test Case">
+		<classes>
+			<class name="ai.spyne.qa.testcases.UploadImagePageTest" />
+			<class name="ai.spyne.qa.testcases.ImageUpscalerPageTest" />
+			<class name="ai.spyne.qa.testcases.ProcessImagePageTest" />	
+		</classes>
+	</test>
+</suite>
